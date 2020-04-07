@@ -12,11 +12,11 @@ You will also find a [`test`](./test) folder in your repository. **Don't edit or
 
 ## Setup
 
-**IMPORTANT:** This is a free online learning series, and our teachers won't be able to help you with your computer configuration. If you are just moving your first steps (you don't know Git, Ruby, what a terminal is, or any of the tools we are using), please **[stick to a REPL](#repl)**! Do you want to configure your computer like a pro? [Learn how to do it with us](#going-further)!
+**IMPORTANT:** This is a free online learning series, and our teachers won't be able to help you with your computer configuration. If you are just moving your first steps (you don't know Git, Ruby, what a terminal is, or any of the tools we are using), please **[stick to Repl.it](#repl)**! Do you want to configure your computer like a pro? [Learn how to do it with us](#going-further)!
 
 ### REPL
 
-If you decided to use a [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop), you can [create an account on Repl.it](https://repl.it/signup) (you can also use your GitHub to sign up).
+If you decided to use a [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop), you have to [create an account on Repl.it](https://repl.it/signup) (you can also use your GitHub to sign up).
 
 Once you are logged in, click this button 👉 [![Run on Repl.it](https://repl.it/badge/github/lewagonlisbon/programming4everybody)](https://repl.it/@lewagonlisbon/programming4everybody) to save a copy of this repository in your personal REPLs collection.
 
@@ -28,14 +28,14 @@ After a session ends, switch to the `Version Control` tab and click `Pull` to ge
 
 ![](https://github.com/lewagonlisbon/programming4everybody/raw/master/images/repl2.png)
 
-> **NOTE:** if the pull command doesn't work, it means you have edited some files you shouldn't have 🛑 Check which ones under `Changed files or folders`, and if they don't belong to the test folder, make sure they look exactly as the ones on GitHub, then try to pull again
+> **NOTE:** if the pull command doesn't work, it means that you have edited some files you shouldn't touch 🛑 Check which ones under `Changed files or folders`, and if they don't belong to the test folder, make sure to make them look exactly as the ones on GitHub, then try to pull again
 
 ### Git and Ruby
 
 **ONLY** if you already have:
 
-- a GitHub profile
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed (type `git --version` in your terminal, it should give you a version >= 1.7)
+- a GitHub profile (follow your classmates!)
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed (just type `git --version` in your terminal, it should give you a version >= 1.7)
 - [Ruby](https://www.ruby-lang.org/en/documentation/installation) installed (`ruby --version` should be >= 2.2)
 
 you can fork this repository on your computer and fetch the new changes after each session.
@@ -44,7 +44,7 @@ First, fork this repository to your profile.
 
 ![](https://github.com/lewagonlisbon/programming4everybody/raw/master/images/fork.png)
 
-Open your terminal and run the following commands one at a time (always read the comments! 👀):
+Open your terminal and run the following commands one at a time (always read the comments carefully! 👀):
 
 ```sh
 # TODO: change with your github username
@@ -66,6 +66,8 @@ subl . # or `open -a "Sublime Text" .`
 code . # or `open -a "Visual Studio Code" .`
 ```
 
+<!-- TODO: add teletype link -->
+
 Follow the lesson on your editor and play around in the [`test`](./test) folder.
 
 After each session, you can get the latest updates with:
@@ -76,7 +78,7 @@ git pull -f upstream master
 
 ## General overview
 
-Our program has 10 lessons, following [Codecademy’s free Ruby track](https://www.codecademy.com/learn/learn-ruby):
+Our program has 10 lessons, following [Codecademy’s Ruby track](https://www.codecademy.com/learn/learn-ruby):
 
 1. [`Introduction to Ruby`](./01_introduction.rb) Wednesday, April 8th
 2. [`Control flow in Ruby`](./02_control_flow.rb) Friday, April 10th
@@ -97,14 +99,14 @@ Our program has 10 lessons, following [Codecademy’s free Ruby track](https://w
 
 For each session, a private link to the Zoom meeting will be shared on the Slack main channel before the beginning of the lesson.
 
-**N.B:** to make the lecture as interactive as possible, we ask you to share your screen with the rest of the participants for **no more than 2 minutes** per session, excluding any extra presentation 🙋🏼‍♀️🙋🏽‍♂️The Zoom meetings and Slack workspace are **private**, and only authorised participants can access them.
+**N.B:** to make the lecture as interactive as possible, we ask you to share your screen with the rest of the participants for **no more than 2 minutes** per session, excluding any eventual extra presentation 🙋🏼‍♀️🙋🏽‍♂️The Zoom meetings and Slack workspace are **private**, and only authorised participants can access them.
 
 ## Going further
 
 Can't wait to know more about programming? **[Apply to Le Wagon](http://www.lewagon.com/lisbon/apply)** and learn how to build the app of your dreams with us 🚀
 
-By completing this course, **you get a special 10% off the next Lisbon course tuition**, and you can combine this discount with any other active scholarship! 🇵🇹 Applications are open for our next batches, check out the dates on our website or [schedule a call with our bootcamp manager](https://meetings.hubspot.com/fernando-jardim1).
+By completing this course, **you get a special 10% off the next Lisbon course tuition**, and you can combine this discount with any other active scholarship! 🇵🇹 Applications are open for our next batches, check out the dates on our website and [get in touch with our bootcamp manager Fernando](https://app.slack.com/client/T0110B1KQP3/user_profile/U011PACG01W).
 
-You can also follow us on [Facebook](https://www.facebook.com/lewagonlisbon), [Instagram](https://www.instagram.com/lewagonlisbon), [Meetup](https://www.meetup.com/Le-Wagon-Lisbon-Coding-Station), and get involved with our amazing community 🤩
+You can also follow us on [Facebook](https://www.facebook.com/lewagonlisbon), [Instagram](https://www.instagram.com/lewagonlisbon), [Meetup](https://www.meetup.com/Le-Wagon-Lisbon-Coding-Station), and stay involved with our amazing community 🤩
 
 ![](https://github.com/lewagonlisbon/programming4everybody/raw/master/images/lisbon.jpg)
